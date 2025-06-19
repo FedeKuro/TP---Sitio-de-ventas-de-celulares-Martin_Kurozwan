@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import { useEffect, useState } from "react";
 import { celulares } from "../data/data";
 import { Link } from "react-router-dom";
@@ -16,14 +15,14 @@ function Home() {
 
   return (
     <div className="home-container">
-      {/* Hero principal */}
+      
       <section className="hero">
         <h1>La mejor tecnología en tus manos</h1>
         <p>Explorá nuestros últimos modelos de celulares</p>
         <Link to="/productos" className="btn-hero">Ver productos</Link>
       </section>
 
-      {/* Destacados / Carousel simple */}
+      
       <section className="destacados">
         <h2>Modelos destacados</h2>
         <div className="destacados-scroll">
@@ -36,7 +35,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Todos los productos */}
       <section className="todos-productos">
         <h2>Todos los celulares</h2>
         <div className="grid-productos">
@@ -50,7 +48,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Beneficios */}
       <section className="beneficios">
         <div className="beneficio">
           <h3>🚚 Envío Gratis</h3>

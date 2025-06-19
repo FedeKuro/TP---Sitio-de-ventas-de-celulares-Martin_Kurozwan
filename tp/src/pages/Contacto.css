@@ -1,0 +1,108 @@
+.contacto-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contacto-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+  }
+  
+  .contacto-container p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .contacto-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .formulario-contacto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .formulario-contacto label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    transition: border-color 0.3s;
+  }
+  
+  .formulario-contacto input:focus,
+  .formulario-contacto textarea:focus {
+    border-color: #0071e3;
+    outline: none;
+  }
+  
+  .formulario-contacto button {
+    background-color: #0071e3;
+    color: #fff;
+    padding: 0.9rem 1.5rem;
+    border: none;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+  }
+  
+  .formulario-contacto button:hover {
+    background-color: #005bb5;
+  }
+  
+  .info-contacto {
+    flex: 1;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .info-contacto h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+  
+  .info-contacto ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .info-contacto li {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .info-contacto h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .info-contacto p {
+    color: #555;
+  }
+  
