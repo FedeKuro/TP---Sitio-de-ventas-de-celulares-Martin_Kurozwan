@@ -9,7 +9,7 @@ const Home = () => {
         <div className="hero">
           <h1 className="hero">Descubre la última tecnología en móviles</h1>
           <p className="hero">
-            En MóvilStore encontrarás los mejores celulares del mercado con
+            En MarKu encontrarás los mejores celulares del mercado con
             ofertas exclusivas y atención personalizada.
           </p>
           <Link to="/productos" className="btn-hero">

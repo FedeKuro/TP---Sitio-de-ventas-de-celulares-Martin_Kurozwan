@@ -21,6 +21,7 @@ export default function App() {
           <Route path="/productos/marca/:idMarca" element={<Productos />} />
           <Route path="/producto/:idCelular" element={<ProductoDetalle />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/*" element={<h1>404 not found 🤣🤣</h1>} />
         </Routes>
       </main>
       <Footer />
