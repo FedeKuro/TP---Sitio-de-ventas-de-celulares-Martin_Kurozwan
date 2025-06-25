@@ -53,17 +53,7 @@ const ProductoDetalle = () => {
               className="main-image" 
             />
           </div>
-          <div className="thumbnail-container">
-            {producto.fotos.map((foto, index) => (
-              <div 
-                key={index}
-                className={`thumbnail ${selectedImage === foto ? 'active' : ''}`}
-                onClick={() => setSelectedImage(foto)}
-              >
-                <img src={foto} alt={`${producto.nombre} - Vista ${index + 1}`} />
-              </div>
-            ))}
-          </div>
+          
         </div>
         <div className="producto-info">
           <h1 className="producto-nombre">{producto.nombre}</h1>
