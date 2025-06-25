@@ -17,13 +17,11 @@
   margin-left: 0.5rem;
   color: #333;
 }
-/* Product Detail Container */
 .producto-detalle-container {
   display: flex;
   gap: 3rem;
   margin-bottom: 4rem;
 }
-/* Product Gallery */
 .producto-gallery {
   flex: 1;
   max-width: 500px;

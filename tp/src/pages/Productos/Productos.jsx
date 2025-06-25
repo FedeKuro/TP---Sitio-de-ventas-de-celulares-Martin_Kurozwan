@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { celulares, marcas } from '../../data';
+import { celulares, marcas } from '../../data/data';
 import './Productos.css';
 const Productos = () => {
   const { idMarca } = useParams();
