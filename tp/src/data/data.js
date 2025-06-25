@@ -12,7 +12,7 @@ export const marcas = [
       descripcion: 'Pantalla Super Retina XDR, chip A16 Bionic, cámara de 48 MP',
       precio: 1299,
       marcaId: 1,
-      fotos: ["../assets/iphone-14.jpg"]
+      fotos: ["https://images.unsplash.com/photo-1664478546384-d57ffe74a78c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80", "https://images.unsplash.com/photo-1663761879666-f7c47d2d92c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"]
 
     },
     {
