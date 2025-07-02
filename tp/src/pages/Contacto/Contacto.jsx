@@ -67,22 +67,22 @@ const Contacto = () => {
       <div className="contacto-container">
         <div className="contacto-info">
           <div className="info-card">
-            <div className="info-icon">📍</div>
+            <div className="info-icon"> <img src="/public/ubicacion.png" alt="" /></div>
             <h3 className="info-title">Dirección</h3>
-            <p className="info-text">Av. Tecnológica 123, Ciudad Móvil, CM 28000</p>
+            <p className="info-text">Yatay 210</p>
           </div>
           <div className="info-card">
-            <div className="info-icon">📞</div>
+            <div className="info-icon"><img src="/public/telefono.png" alt="" /></div>
             <h3 className="info-title">Teléfono</h3>
-            <p className="info-text">(123) 456-7890</p>
+            <p className="info-text">+54 9 11 1266-7890</p>
           </div>
           <div className="info-card">
-            <div className="info-icon">✉️</div>
+            <div className="info-icon"><img src="/public/mail.png" alt="" /></div>
             <h3 className="info-title">Email</h3>
-            <p className="info-text">info@movilstore.com</p>
+            <p className="info-text">info@MarKu.com</p>
           </div>
           <div className="info-card">
-            <div className="info-icon">🕒</div>
+            <div className="info-icon"><img src="/public/reloj.png" alt="" /></div>
             <h3 className="info-title">Horario</h3>
             <p className="info-text">Lunes a Viernes: 9:00 - 20:00</p>
             <p className="info-text">Sábados: 10:00 - 15:00</p>

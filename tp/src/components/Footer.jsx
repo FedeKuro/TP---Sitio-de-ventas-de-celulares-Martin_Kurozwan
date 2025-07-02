@@ -23,10 +23,9 @@ const Footer = () => {
         <div className="footer-section">
           <h3 className="footer-title">Contacto</h3>
           <address className="footer-contact">
-            <p>Av. Tecnológica 123</p>
-            <p>Ciudad Móvil, CM 28000</p>
-            <p>Teléfono: (123) 456-7890</p>
-            <p>Email: info@movilstore.com</p>
+            <p>Yatay 210</p>
+            <p>Teléfono: +54 9 11 1266-7890</p>
+            <p>Email: info@MarKu.com</p>
           </address>
         </div>
       </div>

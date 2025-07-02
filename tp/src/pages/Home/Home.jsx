@@ -66,22 +66,22 @@ const Home = () => {
   <h2 className="section-title">¿Por qué elegirnos?</h2>
   <div className="beneficios-grid">
     <div className="beneficio-card">
-      <div className="beneficio-icon">🚚</div>
+      <div className="beneficio-icon"><img src="/public/envio.png" alt="" /></div>
       <h3 className="beneficio-title">Envío gratuito</h3>
       <p className="beneficio-desc">En todas tus compras superiores a $500</p>
     </div>
     <div className="beneficio-card">
-      <div className="beneficio-icon">🔒</div>
+      <div className="beneficio-icon"><img src="/public/tarjeta.png" alt="" /></div>
       <h3 className="beneficio-title">Pago seguro</h3>
       <p className="beneficio-desc">Tus datos siempre protegidos</p>
     </div>
     <div className="beneficio-card">
-      <div className="beneficio-icon">🔄</div>
+      <div className="beneficio-icon"><img src="/public/garantia.png" alt="" /></div>
       <h3 className="beneficio-title">Garantía</h3>
       <p className="beneficio-desc">1 año en todos nuestros productos</p>
     </div>
     <div className="beneficio-card">
-      <div className="beneficio-icon">💬</div>
+      <div className="beneficio-icon"><img src="/public/soporte.png" alt="" /></div>
       <h3 className="beneficio-title">Soporte 24/7</h3>
       <p className="beneficio-desc">Estamos aquí para ayudarte</p>
     </div>

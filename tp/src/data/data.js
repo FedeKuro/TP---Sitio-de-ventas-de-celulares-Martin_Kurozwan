@@ -22,9 +22,7 @@ export const marcas = [
       precio: 999,
       marcaId: 2,
       fotos: [
-        'https://example.com/galaxys23-1.jpg',
-        'https://example.com/galaxys23-2.jpg',
-        'https://example.com/galaxys23-3.jpg'
+        "https://ferbi.com.ar/web/image/product.image/12666/image_1024/Celular%20Samsung%20S23%20Plus%20Reacondicionado?unique=9005ade", 
       ]
     },
     {
@@ -34,9 +32,7 @@ export const marcas = [
       precio: 899,
       marcaId: 3,
       fotos: [
-        'https://example.com/xiaomi13pro-1.jpg',
-        'https://example.com/xiaomi13pro-2.jpg',
-        'https://example.com/xiaomi13pro-3.jpg'
+        "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1678185439.29116471!600x600!85.png"
       ]
     },
     {
@@ -46,9 +42,7 @@ export const marcas = [
       precio: 699,
       marcaId: 4,
       fotos: [
-        'https://example.com/edge40-1.jpg',
-        'https://example.com/edge40-2.jpg',
-        'https://example.com/edge40-3.jpg'
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaKxLHdQRSnL-ecgIxdL2tA-ItwnxZSY_-IA&s"
       ]
     }
    ];

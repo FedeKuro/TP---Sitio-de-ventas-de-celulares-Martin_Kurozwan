@@ -7,7 +7,7 @@ import ProductoDetalle from './pages/ProductoDetalle/ProductoDetalle';
 import Contacto from './pages/Contacto/Contacto';
 import Navbar from './components/navbar';
 import Footer from './components/Footer';
-import './App.css';
+import './App.css'; 
 
 export default function App() {
   return (
@@ -15,14 +15,15 @@ export default function App() {
       <Navbar />
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/quienes-somos" element={<QuienesSomos />} />
-          <Route path="/productos" element={<Productos />} />
-          <Route path="/productos/marca/:idMarca" element={<Productos />} />
-          <Route path="/producto/:idCelular" element={<ProductoDetalle />} />
-          <Route path="/contacto" element={<Contacto />} />
-          <Route path="/*" element={<h1>404 not found 🤣🤣</h1>} />
-        </Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/quienes-somos" element={<QuienesSomos />} />
+  <Route path="/productos" element={<Productos />} />
+  <Route path="/productos/marca/:idMarca" element={<Productos />} />
+  <Route path="/producto/:idCelular" element={<ProductoDetalle />} />
+  <Route path="/contacto" element={<Contacto />} />
+  <Route path="/*" element={<h1>404 not found 🤣🤣</h1>} />
+</Routes>
+
       </main>
       <Footer />
     </div>

@@ -65,12 +65,22 @@
 }
 .producto-image-container {
   height: 200px;
-  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+.producto-image-iphone{
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
 }
 .producto-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-height: 100%;
+  max-width: 50%;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 .producto-card:hover .producto-image {
@@ -98,62 +108,4 @@
 .producto-button {
   display: inline-block;
   background-color: #0066cc;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-}
-.producto-button:hover {
-  background-color: #0055aa;
-}
-/* No Products Message */
-.no-products {
-  grid-column: 1 / -1;
-  text-align: center;
-  padding: 3rem;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-}
-.no-products p {
-  margin-bottom: 1rem;
-  color: #666;
-}
-.back-link {
-  display: inline-block;
-  background-color: #0066cc;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-}
-.back-link:hover {
-  background-color: #0055aa;
-}
-/* Responsive */
-@media (max-width: 992px) {
-  .page-title {
-    font-size: 2rem;
-  }
-  .filter-title {
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 768px) {
-  .productos-grid {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  }
-  .brand-filters {
-    flex-wrap: wrap;
-  }
-  .brand-filter {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-  }
-}
-@media (max-width: 576px) {
-  .productos-grid {
-    grid-template-columns: 1fr;
-  }
 }

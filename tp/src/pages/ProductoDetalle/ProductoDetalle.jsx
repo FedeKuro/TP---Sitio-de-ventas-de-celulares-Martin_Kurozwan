@@ -79,44 +79,18 @@ const ProductoDetalle = () => {
           </div>
           <div className="producto-garantia">
             <div className="garantia-item">
-              <span className="garantia-icon">🚚</span>
+              <span className="garantia-icon"></span>
               <span className="garantia-text">Envío gratuito en pedidos superiores a $500</span>
             </div>
             <div className="garantia-item">
-              <span className="garantia-icon">🔄</span>
+              <span className="garantia-icon"></span>
               <span className="garantia-text">Garantía de 1 año del fabricante</span>
             </div>
             <div className="garantia-item">
-              <span className="garantia-icon">💳</span>
+              <span className="garantia-icon"></span>
               <span className="garantia-text">Pago seguro con múltiples opciones</span>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="productos-relacionados">
-        <h2 className="section-title">Productos relacionados</h2>
-        <div className="relacionados-grid">
-          {celulares
-            .filter(cel => cel.marcaId === producto.marcaId && cel.id !== producto.id)
-            .slice(0, 3)
-            .map(celular => (
-              <article key={celular.id} className="producto-card">
-                <div className="producto-image-container">
-                  <img 
-                    src={celular.fotos[0]} 
-                    alt={celular.nombre} 
-                    className="producto-image" 
-                  />
-                </div>
-                <div className="producto-content">
-                  <h3 className="producto-title">{celular.nombre}</h3>
-                  <p className="producto-price">${celular.precio}</p>
-                  <Link to={`/producto/${celular.id}`} className="producto-button">
-                    Ver más
-                  </Link>
-                </div>
-              </article>
-            ))}
         </div>
       </div>
     </div>
