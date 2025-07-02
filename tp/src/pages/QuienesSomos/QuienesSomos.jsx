@@ -19,7 +19,7 @@ const QuienesSomos = () => {
         <div className="about-text">
           <h2 className="about-subtitle">Nuestra Historia</h2>
           <p>
-            Fundada en 2015, MóvilStore nació con la visión de ofrecer a nuestros clientes la mejor experiencia en la compra de dispositivos móviles. Lo que comenzó como una pequeña tienda local se ha convertido en uno de los referentes del sector, gracias a nuestra dedicación y compromiso con la calidad y el servicio al cliente.
+            Fundada en 2023, MarKu nació con la visión de ofrecer a nuestros clientes la mejor experiencia en la compra de dispositivos móviles. Lo que comenzó como una pequeña tienda local se ha convertido en uno de los referentes del sector, gracias a nuestra dedicación y compromiso con la calidad y el servicio al cliente.
           </p>
           <p>
             A lo largo de estos años, hemos crecido constantemente, ampliando nuestra oferta de productos y servicios para satisfacer las necesidades cambiantes de nuestros clientes. Hoy, contamos con un equipo de expertos apasionados por la tecnología, listos para asesorarte y ayudarte a encontrar el dispositivo perfecto para ti.
