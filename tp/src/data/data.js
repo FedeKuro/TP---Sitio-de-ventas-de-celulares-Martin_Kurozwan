@@ -45,5 +45,105 @@ export const marcas = [
       fotos: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaKxLHdQRSnL-ecgIxdL2tA-ItwnxZSY_-IA&s"
       ]
+    },
+    {
+      id: 5,
+      nombre: 'iPhone SE 2022',
+      descripcion: 'Chip A15 Bionic, Touch ID, diseño compacto y potencia moderna',
+      precio: 599,
+      marcaId: 1,
+      fotos: [
+        "https://www.compumacypc.com.ar/wp-content/uploads/iphonese2020128red.jpg"
+      ]
+    },
+    {
+      id: 6,
+      nombre: 'Samsung Galaxy A54',
+      descripcion: 'Pantalla Super AMOLED, batería de larga duración, excelente cámara',
+      precio: 629,
+      marcaId: 2,
+      fotos: [
+        "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a546ezwearo/gallery/ar-galaxy-a54-5g-sm-a546-sm-a546ezwearo-535983770?$684_547_PNG$"
+      ]
+    },
+    {
+      id: 7,
+      nombre: 'Xiaomi Redmi Note 12',
+      descripcion: 'Gran pantalla 120Hz, Snapdragon 685, precio accesible',
+      precio: 279,
+      marcaId: 3,
+      fotos: [
+        "https://newark.cl/wp-content/uploads/2024/01/ce504xia21-xiaomi-redmi-note-12-pro-5g-256-gb-gris-azul-cielo.png"
+      ]
+    },
+    {
+      id: 8,
+      nombre: 'Motorola G73',
+      descripcion: 'Pantalla 120Hz, cámara Ultra Pixel, rendimiento eficiente',
+      precio: 319,
+      marcaId: 4,
+      fotos: [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsCL_GGbnNpqVc4OwYjRUAS7Jeht0z0raG7w&s"
+      ]
+    },
+    {
+      id: 9,
+      nombre: 'iPhone 13',
+      descripcion: 'Chip A15, gran autonomía y rendimiento premium',
+      precio: 999,
+      marcaId: 1,
+      fotos: [
+        "https://m.media-amazon.com/images/I/61VuVU94RnL.jpg"
+      ]
+    },
+    {
+      id: 10,
+      nombre: 'Samsung Galaxy Z Flip 4',
+      descripcion: 'Diseño plegable, cámara dual, pantalla AMOLED dinámica',
+      precio: 1299,
+      marcaId: 2,
+      fotos: [
+        "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-f721bzakaro/gallery/ar-galaxy-z-flip4-f721-sm-f721bzakaro-534303778?$684_547_PNG$"
+      ]
+    },
+    {
+      id: 11,
+      nombre: 'Xiaomi Poco X5',
+      descripcion: 'Gran batería, diseño juvenil, ideal para gaming',
+      precio: 359,
+      marcaId: 3,
+      fotos: [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrG19sbiKTA4Ly8EY3HqaR2P2I0JNyfjYPNg&s"
+      ]
+    },
+    {
+      id: 12,
+      nombre: 'Motorola Moto G100',
+      descripcion: 'Snapdragon 870, Ready For, 5G a precio accesible',
+      precio: 599,
+      marcaId: 4,
+      fotos: [
+        "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/bfe9ce96ff8630106878640e38b2e2fa8f011c15.jpg"
+      ]
+    },
+    {
+      id: 13,
+      nombre: 'iPhone 12 mini',
+      descripcion: 'Compacto, potente y con pantalla OLED',
+      precio: 799,
+      marcaId: 1,
+      fotos: [
+        "https://m.media-amazon.com/images/I/51rmJraBt9L.jpg"
+      ]
+    },
+    {
+      id: 14,
+      nombre: 'Samsung Galaxy M14',
+      descripcion: 'Batería enorme y rendimiento ideal para el día a día',
+      precio: 249,
+      marcaId: 2,
+      fotos: [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbWW-kJCL_JgF-kV1G_eDh_vGL3WSbhdGSdA&s"
+      ]
     }
    ];
