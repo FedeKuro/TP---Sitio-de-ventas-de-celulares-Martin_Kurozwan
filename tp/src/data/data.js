@@ -23,6 +23,7 @@ export const marcas = [
       marcaId: 2,
       fotos: [
         "https://ferbi.com.ar/web/image/product.image/12666/image_1024/Celular%20Samsung%20S23%20Plus%20Reacondicionado?unique=9005ade", 
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ]
     },
     {

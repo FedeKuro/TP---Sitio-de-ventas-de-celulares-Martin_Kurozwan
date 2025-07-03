@@ -155,16 +155,7 @@ const Contacto = () => {
           )}
         </div>
       </div>
-      <section className="mapa-section">
-        <h2 className="section-title">Nuestra ubicación</h2>
-        <div className="mapa-container">
-          <img 
-            src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1733&q=80" 
-            alt="Mapa de ubicación de MóvilStore" 
-            className="mapa-image" 
-          />
-        </div>
-      </section>
+    
     </div>
   );
 };

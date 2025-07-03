@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3 className="footer-title">MóvilStore</h3>
+          <h3 className="footer-title">MarKu</h3>
           <p className="footer-description">
             Tu tienda de confianza para encontrar los mejores celulares del mercado con precios competitivos y atención personalizada.
           </p>
@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} MóvilStore. Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} MarKu. Todos los derechos reservados.</p>
       </div>
     </footer>
   );
