@@ -12,7 +12,7 @@ const QuienesSomos = () => {
       <section className="about-content">
         <div className="about-image">   
           <img 
-            src="https://ih1.redbubble.net/image.3488621596.3658/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" 
+            src="https://image.spreadshirtmedia.com/image-server/v1/compositions/T210A2PA4301PT17X41Y48D1035572788W25000H20833/views/1,width=550,height=550,appearanceId=2,backgroundColor=000000,noPt=true/in-case-of-fire-git-commit-git-push-git-out-mens-t-shirt.jpg" 
             alt="Equipo de MarKu" 
           />
         </div>
